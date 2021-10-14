@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+/* :root {
+  --deep-dark: #1e1e1e;
+  --gray-2: #363636;
+} */
 
 body,
 html {
@@ -8,22 +12,23 @@ html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: white;
+  background-color: #1e1e1e;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: white;
   font-weight: bold;
   transition: color 0.1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: hotpink;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #f5054f;
   border: 0;
   padding: 1%;
   color: rgb(255, 255, 255);
@@ -34,7 +39,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: hotpink;
 }
 
 .post-list {
@@ -52,7 +57,7 @@ input {
 textarea:focus,
 input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid hotpink;
 }
 
 textarea {
@@ -101,7 +106,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #f5054f;
   font-size: 100%;
   font-weight: bold;
   transition: color 0.1s;
@@ -110,7 +115,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #f5054f;
 }
 
 .delete-post-btn {
@@ -144,6 +149,7 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  color: white;
 }
 
 .comment:nth-child(odd) {
@@ -170,4 +176,34 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  background-color: #363636;
+  color: white;
+}
+
+header {
+  background-color: #363636;
+}
+
+body {
+  background-color: red;
+}
+
+main {
+  background-color: #1e1e1e;
+}
+
+p {
+  color: white;
+}
+
+.meta {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.bg-primary {
+  background-color: #f5054f;
 }
