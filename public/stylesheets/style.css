@@ -182,10 +182,6 @@ header {
   background-color: #363636;
 }
 
-body {
-  background-color: red;
-}
-
 main {
   background-color: #1e1e1e;
 }
@@ -203,6 +199,6 @@ h2 {
   color: white;
 }
 
-.pink {
-  background-color: yellow;
+button {
+  background-color: green;
 }
