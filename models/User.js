@@ -1,5 +1,3 @@
-const { beforeUpdate } = require("../config/connection");
-
 User.init(
   {
     id: {
